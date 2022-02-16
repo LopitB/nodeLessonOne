@@ -1,0 +1,9 @@
+age:19
+name:Katya
+name:Ira
+city:Dnipro
+city:Odessa
+age:23
+name:Boris
+age:21
+city:Poltava

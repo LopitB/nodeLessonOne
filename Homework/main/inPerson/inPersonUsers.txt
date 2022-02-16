@@ -1,0 +1,9 @@
+name:Andrii
+age:22
+age:20
+name:Bohdan
+city:Kyiv
+name:Tanya
+city:Lviv
+age:21
+city:Poltava
