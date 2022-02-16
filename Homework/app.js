@@ -1,5 +1,5 @@
-const path = require('path');
-const fs = require('fs');
+// const path = require('path');
+// const fs = require('fs');
 
 
 // fs.mkdir(path.join(__dirname, 'main'), (err) => {
@@ -61,7 +61,7 @@ const fs = require('fs');
 
 // for (let i = 0; i < onlineUsers.length; i++) {
 //     for (const user in onlineUsers[i]) {
-//         fs.writeFile(path.join(__dirname, 'main', 'online', 'onlineUsers.txt'), `${user}:${onlineUsers[i][user]}\n`, {flag: 'a'}, (err) => {
+//         fs.writeFile(path.join(__dirname, 'main', 'online', 'onlineUsers.txt'), `${user}:${onlineUsers[i][user]}\n`, (err) => {
 //             if (err) {
 //                 console.log(err);
 //                 throw err;
@@ -72,7 +72,7 @@ const fs = require('fs');
 //
 // for (let i = 0; i < inPersonUsers.length; i++) {
 //     for (const user in inPersonUsers[i]) {
-//         fs.writeFile(path.join(__dirname, 'main', 'inPerson', 'inPersonUsers.txt'), `${user}:${inPersonUsers[i][user]}\n`, {flag: 'a'}, (err) => {
+//         fs.writeFile(path.join(__dirname, 'main', 'inPerson', 'inPersonUsers.txt'), `${user}:${inPersonUsers[i][user]}\n`, (err) => {
 //             if (err) {
 //                 console.log(err);
 //                 throw err;
